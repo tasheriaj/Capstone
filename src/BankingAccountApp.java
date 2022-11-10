@@ -2,9 +2,10 @@
 public class BankingAccountApp {
 	public static void main(String[] args) {
 		 
-		Checking acct1 = new Checking();
+		Checking acct1 = new Checking("Willie Nelson");
 		
-		Savings savingacct1 = new Savings();
+		Savings savingsacct1 = new Savings("Richie Rich");
+		
 		
 	}
 

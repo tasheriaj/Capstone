@@ -3,8 +3,9 @@ public abstract class Account implements InterestRate  {
 
 	//create properties for both checking/savings accounts (ex.name, acct umber, balance etc;
 	//these will be the same for both accounts
-	public Account() {
-		System.out.println("NEW ACCOUNT:");
+	public Account(String name) {
+		System.out.print("NEW ACCOUNT:");
+		System.out.println(name);
 	}
 	
 	
