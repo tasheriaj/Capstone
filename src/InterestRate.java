@@ -1,4 +1,7 @@
 
 public interface InterestRate {
 
+	//Write 
+	
+	
 }
